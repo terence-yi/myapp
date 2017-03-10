@@ -1,4 +1,4 @@
-FROM cenos
+FROM centos
 MAINTAINER Terence
 RUN yum install httpd -y
 RUN echo 'myapp v1' > /var/www/html/index.html
